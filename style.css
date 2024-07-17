@@ -1,0 +1,32 @@
+h2{
+  font-family: 'Courier New', Courier, monospace;
+} 
+ 
+#chiste{
+font-family: 'Courier New', Courier, monospace;
+
+}
+ 
+  
+ 
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.form-container, .results-container {
+  width: 45%;
+}
+.movie-container, .gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie, .gallery img {
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.movie img, .gallery img {
+  max-width: 100px;
+}
+
